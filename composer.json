@@ -1,0 +1,30 @@
+{
+  "name": "soisy/magento2-payment-method",
+  "description": "Create Pagolight payment method in your Magento2 online shop",
+  "type": "magento2-module",
+  "version": "1.1.0",
+  "license": [
+    "MPL-2.0"
+  ],
+  "authors": [
+    {
+      "name": "Soisy",
+      "email": "dev@soisy.it",
+      "homepage": "https://doc.soisy.it",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "magento/framework": "^101|^102.0.0|^103.0.0"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Soisy\\PaymentMethod\\": ""
+    }
+  }
+}

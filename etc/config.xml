@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <payment>
+            <soisy>
+                <active>0</active>
+                <model>Soisy\PaymentMethod\Model\Soisy</model>
+                <sandbox>1</sandbox>
+                <order_status>pending</order_status>
+                <title></title>
+                <min_order_total>60</min_order_total>
+                <max_order_total>3000</max_order_total>
+                <instructions></instructions>
+                <show_simulation>1</show_simulation>
+                <promotional_rates>12</promotional_rates>
+                <zero_interest_rate>0</zero_interest_rate>
+                <allowspecific>0</allowspecific>
+                <group>offline</group>
+            </soisy>
+        </payment>
+    </default>
+</config>

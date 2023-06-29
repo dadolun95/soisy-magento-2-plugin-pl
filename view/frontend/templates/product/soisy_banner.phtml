@@ -1,0 +1,8 @@
+<?php
+$viewModel = $block->getViewModel();
+$viewModel->setProduct($block->getProduct());
+?>
+
+<?php if ($viewModel->canShow()): ?>
+    <?= $viewModel->getSimulation() ?>
+<?php endif; ?>
