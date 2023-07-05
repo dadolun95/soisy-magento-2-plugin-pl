@@ -16,6 +16,8 @@
                 <zero_interest_rate>0</zero_interest_rate>
                 <allowspecific>0</allowspecific>
                 <group>offline</group>
+                <shop_id>shopid_pl</shop_id>
+                <auth_token>apiKey</auth_token>
             </soisy>
         </payment>
     </default>
